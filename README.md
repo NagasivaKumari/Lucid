@@ -35,4 +35,3 @@ Lucid is an Algorand-native experimentation workspace that bundles two PyTeal sm
 - Add runtime guards and clearer documentation to `contracts/umis_engine.py`.
 - Expand the simulation helper to support reusable recipient sets.
 - Introduce a CI workflow that verifies contract compilation and lints the frontend assets.
-
