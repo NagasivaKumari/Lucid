@@ -1,4 +1,4 @@
-# DropPay
+# 
 
 DropPay is an Algorand-native experimentation workspace that bundles two PyTeal smart contracts (the donation pool and the UMIS weighted payout engine), a lightweight backend proxy, and a prototype dashboard experience.
 
