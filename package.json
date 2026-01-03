@@ -1,0 +1,21 @@
+{
+  "name": "droppay-umis",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js"
+  },
+  "dependencies": {
+    "@walletconnect/client": "^1.6.6",
+    "@walletconnect/qrcode-modal": "^1.6.0",
+    "algosdk": "^3.5.2",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "lute-connect": "^1.6.3",
+    "node-fetch": "^2.6.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}

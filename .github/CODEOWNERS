@@ -1,0 +1,16 @@
+# CODEOWNERS file
+# Replace <ORG> with your GitHub organization or username that contains the team.
+# Example: @my-org/AlgoGit-Squad
+
+# Owners for smart contracts and scripts
+/contracts/ @<ORG>/AlgoGit-Squad
+/scripts/ @<ORG>/AlgoGit-Squad
+
+# Owners for frontend
+/frontend/ @<ORG>/AlgoGit-Squad
+
+# Backend and infra
+/backend/ @<ORG>/AlgoGit-Squad
+
+# Default owners for everything else
+* @<ORG>/AlgoGit-Squad

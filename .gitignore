@@ -1,0 +1,54 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# dotenv
+.env
+.env.*
+
+# macOS
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Build
+dist/
+build/
+
+# Misc
+*.sqlite3
+coverage/
+.pytest_cache/
+
+# Ignore compiled TEAL 
+contracts/*_approval.teal
+contracts/*_clear.teal
+
+# Ignore desktop-specific files
+Thumbs.db
+
+# Backend env
+backend/node_modules/
+
+# Ignored local secrets
+secrets.json
+
+

@@ -1,0 +1,157 @@
+/* styles.css – Design System for DropPay Dashboard */
+:root {
+  /* Color palette */
+  --bg-body: #030712;
+  --bg-card: rgba(255, 255, 255, 0.04);
+  --bg-panel: rgba(255, 255, 255, 0.06);
+  --text-primary: #f6f8ff;
+  --text-muted: #acb3cf;
+  --accent: #7c5dff;
+  --accent-strong: #2dd4bf;
+  --border: rgba(255, 255, 255, 0.2);
+  --radius-lg: 1.5rem;
+  --shadow-soft: 0 30px 80px rgba(3, 7, 18, 0.6);
+  --transition: 0.2s ease;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  background: radial-gradient(circle at 10% 10%, #2a2a72, transparent 45%),
+    radial-gradient(circle at 90% 20%, #1077ff40, transparent 40%), var(--bg-body);
+  color: var(--text-primary);
+  min-height: 100vh;
+}
+
+main {
+  width: min(1200px, 100%);
+  margin: 0 auto;
+  padding: 3rem 1.5rem 4rem;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+header h1 {
+  font-size: clamp(2.5rem, 4vw, 3.4rem);
+}
+
+header p {
+  color: var(--text-muted);
+  font-size: 1rem;
+}
+
+/* Panels & Cards */
+.panel, .card {
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 1.5rem;
+  background: var(--bg-panel);
+  position: relative;
+  overflow: hidden;
+  backdrop-filter: blur(18px);
+  box-shadow: var(--shadow-soft);
+}
+
+.panel::after, .card::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  pointer-events: none;
+  background: linear-gradient(135deg, rgba(124,93,255,0.2), transparent 60%);
+}
+
+/* Buttons */
+button {
+  border: none;
+  padding: 0.8rem 1.25rem;
+  font-size: 0.95rem;
+  border-radius: 999px;
+  cursor: pointer;
+  font-family: inherit;
+  transition: transform var(--transition), box-shadow var(--transition);
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.35);
+}
+
+.wallet-buttons button, .actions button {
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.15);
+  color: var(--text-primary);
+}
+
+.actions button.primary {
+  background: linear-gradient(135deg, var(--accent), var(--accent-strong));
+  color: #fff;
+  box-shadow: 0 10px 35px rgba(45,212,191,0.35);
+}
+
+.actions button.secondary {
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.2);
+  color: var(--text-primary);
+}
+
+/* Responsive Grid */
+.content-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+/* Table */
+.table-wrapper {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  color: var(--text-primary);
+}
+
+thead {
+  background: var(--bg-card);
+}
+
+th, td {
+  padding: 0.75rem 1rem;
+  text-align: left;
+  border-bottom: 1px solid var(--border);
+}
+
+/* Chart container */
+.chart-container {
+  position: relative;
+  height: 300px;
+  margin-top: 1rem;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .actions button,
+  .wallet-buttons button {
+    flex: 1 1 100%;
+  }
+}
