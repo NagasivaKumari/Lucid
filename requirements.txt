@@ -1,2 +1,8 @@
 pyteal>=0.14.0
 py-algorand-sdk>=1.15.0
+fastapi
+uvicorn
+python-dotenv
+pydantic
+pytest
+httpx
