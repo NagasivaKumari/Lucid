@@ -1,6 +1,6 @@
-# 
+# Lucid
 
-DropPay is an Algorand-native experimentation workspace that bundles two PyTeal smart contracts (the donation pool and the UMIS weighted payout engine), a lightweight backend proxy, and a prototype dashboard experience.
+Lucid is an Algorand-native experimentation workspace that bundles two PyTeal smart contracts (the donation pool and the UMIS weighted payout engine), a lightweight backend proxy, and a prototype dashboard experience.
 
 ## Structure
 - `contracts/` holds the donation pool and UMIS engine source code plus their compiled TEAL outputs.
