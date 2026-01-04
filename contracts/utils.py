@@ -1,3 +1,8 @@
+"""
+Module: utils.py
+Description: Implementation of utils.py for Lucid project.
+"""
+
 from pyteal import Expr, WideRatio
 
 
