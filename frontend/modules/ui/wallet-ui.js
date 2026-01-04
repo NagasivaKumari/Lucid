@@ -1,3 +1,8 @@
+/**
+ * Module: wallet-ui.js
+ * Description: Frontend module for wallet-ui.js.
+ */
+
 const walletContainer = document.getElementById('wallet');
 const statusTag = document.getElementById('status-tag');
 const walletAddress = document.getElementById('wallet-address');
