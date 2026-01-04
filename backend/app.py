@@ -1,3 +1,8 @@
+"""
+Module: app.py
+Description: Implementation of app.py for Lucid project.
+"""
+
 from base64 import b64decode, b64encode
 import json
 import os
