@@ -1,3 +1,8 @@
+/**
+ * Module: utils.js
+ * Description: Frontend module for utils.js.
+ */
+
 export async function importModule(pkg) {
     try {
         return await import(pkg);
