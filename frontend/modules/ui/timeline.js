@@ -1,3 +1,8 @@
+/**
+ * Module: timeline.js
+ * Description: Frontend module for timeline.js.
+ */
+
 const timelineList = document.getElementById('timeline');
 
 const timelineSamples = [
