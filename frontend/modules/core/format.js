@@ -1,3 +1,8 @@
+/**
+ * Module: format.js
+ * Description: Frontend module for format.js.
+ */
+
 export function formatAlgo(amount) {
     return `${(amount / 1e6).toLocaleString(undefined, { minimumFractionDigits: 2 })} ALGO`;
 }
