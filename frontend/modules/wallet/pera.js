@@ -1,3 +1,8 @@
+/**
+ * Module: pera.js
+ * Description: Frontend module for pera.js.
+ */
+
 import { importModule } from './utils.js';
 
 export async function connectPera(onConnect) {
