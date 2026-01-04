@@ -1,3 +1,8 @@
+/**
+ * Module: algosigner.js
+ * Description: Frontend module for algosigner.js.
+ */
+
 export async function connectAlgoSigner(onConnect) {
     if (!window.AlgoSigner) {
         alert('AlgoSigner not found. Install the AlgoSigner extension.');
