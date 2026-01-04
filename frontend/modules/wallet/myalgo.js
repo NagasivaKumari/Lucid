@@ -1,3 +1,8 @@
+/**
+ * Module: myalgo.js
+ * Description: Frontend module for myalgo.js.
+ */
+
 import { importModule } from './utils.js';
 
 export async function connectMyAlgo(onConnect) {
