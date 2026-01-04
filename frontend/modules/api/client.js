@@ -1,3 +1,8 @@
+/**
+ * Module: client.js
+ * Description: Frontend module for client.js.
+ */
+
 import { getConfig } from '../core/config.js';
 
 export async function getAlgodParams() {
