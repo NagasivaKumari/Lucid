@@ -1,3 +1,8 @@
+/**
+ * Module: lute.js
+ * Description: Frontend module for lute.js.
+ */
+
 import { importModule } from './utils.js';
 import { getConfig } from '../core/config.js';
 
