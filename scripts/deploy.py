@@ -1,3 +1,8 @@
+"""
+Module: deploy.py
+Description: Implementation of deploy.py for Lucid project.
+"""
+
 import base64
 import json
 import os
