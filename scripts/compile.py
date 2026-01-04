@@ -1,3 +1,8 @@
+"""
+Module: compile.py
+Description: Implementation of compile.py for Lucid project.
+"""
+
 from pyteal import compileTeal, Mode
 from contracts.donation_pool import approval_program, clear_state_program
 
