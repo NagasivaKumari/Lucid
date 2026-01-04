@@ -1,3 +1,8 @@
+"""
+Module: donation_pool.py
+Description: Implementation of donation_pool.py for Lucid project.
+"""
+
 from pyteal import *
 
 def approval_program():
