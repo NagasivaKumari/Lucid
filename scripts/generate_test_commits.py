@@ -1,3 +1,8 @@
+"""
+Module: generate_test_commits.py
+Description: Implementation of generate_test_commits.py for Lucid project.
+"""
+
 import os
 import subprocess
 
