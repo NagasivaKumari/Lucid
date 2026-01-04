@@ -1,3 +1,8 @@
+/**
+ * Module: walletconnect.js
+ * Description: Frontend module for walletconnect.js.
+ */
+
 import { importModule } from './utils.js';
 
 export async function connectWalletConnect(onConnect) {
