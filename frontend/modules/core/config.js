@@ -1,3 +1,8 @@
+/**
+ * Module: config.js
+ * Description: Frontend module for config.js.
+ */
+
 let config = null;
 
 export async function loadConfig() {
