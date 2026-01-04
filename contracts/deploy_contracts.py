@@ -1,3 +1,8 @@
+"""
+Module: deploy_contracts.py
+Description: Implementation of deploy_contracts.py for Lucid project.
+"""
+
 import os
 from dotenv import load_dotenv
 from algosdk import account, mnemonic
