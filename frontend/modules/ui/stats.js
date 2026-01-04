@@ -1,3 +1,8 @@
+/**
+ * Module: stats.js
+ * Description: Frontend module for stats.js.
+ */
+
 import { formatAlgo } from '../core/format.js';
 
 const poolValue = document.getElementById('pool-value');
